@@ -48,4 +48,7 @@ Going back to your first shell, you should now see a serial TTY prompting you to
 `username: root`
 `password: toor`
 
+### Run using the firectl command-line tool
+- Run the following command using the firectl command line tool
+-- ```./firectl --kernel=./hello-vmlinux.bin --root-drive=./centos7-rootfs.ext4 --kernel-opts="console=ttyS0 noapic reboot=k panic=1 pci=off nomodules rw" ```
 
